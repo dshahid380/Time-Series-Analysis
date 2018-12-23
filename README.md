@@ -10,9 +10,9 @@ Time series analysis using LSTM
   
   There are three types of gates within a unit:
   
-      -  Forget Gate: conditionally decides what information to throw away from the block.
+  -  Forget Gate: conditionally decides what information to throw away from the block.
       
-      -  Input Gate: conditionally decides which values from the input to update the memory state.
+  -  Input Gate: conditionally decides which values from the input to update the memory state.
       
-      -  Output Gate: conditionally decides what to output based on input and the memory of the block.
+  -  Output Gate: conditionally decides what to output based on input and the memory of the block.
      
