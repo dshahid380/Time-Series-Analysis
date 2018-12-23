@@ -9,7 +9,7 @@ Time series analysis using LSTM
   Instead of neurons, LSTM networks have memory blocks that are connected through layers.A block has components that make it smarter than a classical neuron and a memory for recent sequences. A block contains gates that manage the block’s state and output. A block operates upon an input sequence and each gate within a block uses the sigmoid activation units to control whether they are triggered or not, making the change of state and addition of information flowing through the block conditional.
   <br>
   There are three types of gates within a unit:
-      *Forget Gate: conditionally decides what information to throw away from the block.
-      *Input Gate: conditionally decides which values from the input to update the memory state.
-      *Output Gate: conditionally decides what to output based on input and the memory of the block.
+      - Forget Gate: conditionally decides what information to throw away from the block.
+      - Input Gate: conditionally decides which values from the input to update the memory state.
+      - Output Gate: conditionally decides what to output based on input and the memory of the block.
      
