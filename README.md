@@ -15,4 +15,10 @@ Time series analysis using LSTM
   -  Input Gate: conditionally decides which values from the input to update the memory state.
       
   -  Output Gate: conditionally decides what to output based on input and the memory of the block.
+### Dependencies :
+* numpy
+* pandas
+* keras
+* Tensorflow
+* sklearn
      
